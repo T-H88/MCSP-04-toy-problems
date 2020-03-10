@@ -18,23 +18,19 @@
  *
  */
 
-var rockPaperScissors = function(rounds) {
-  let nRounds = rounds ? rounds : 3;
+var rockPaperScissors = function(rounds = 3) {
   var rps = ["R", "P", "S"];
   var sequences = [];
   var sqn = "";
 
   // need to go #rounds 'deep', every combo of 3 each time
   const goRoundsDeep = function(round, sqn) {
-    if (round === nRounds) {
+    if (round === rounds) {
       sequences.push(sqn);
-      return true;
+      return;
     } else {
       for (let i = 0; i < rps.length; i++) {
-        sqn += rps[i];
-        if (goRoundsDeep(round + 1, sqn)) {
-          sqn = sqn.slice(0, sqn.length - 1);
-        }
+        goRoundsDeep(round + 1, sqn + rps[i]);
       }
       return true;
     }
@@ -61,7 +57,7 @@ function rockPaperPermutations(rounds) {
   const lib = ["r", "p", "s"];
   const permutations = [];
 
-  const inner = (n, perm) => {
+  const inner = function(n, perm) {
     // 'base' case. If we are at correct rounds deep, save this round
     if (n === rounds) {
       permutations.push(perm);
