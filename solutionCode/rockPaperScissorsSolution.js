@@ -53,7 +53,9 @@ var rockPaperScissors = function(rounds = 3) {
 
 function rockPaperPermutations(rounds) {
   // If no rounds provided return empty
-  if (!rounds) return [];
+  if (!rounds) {
+    return [];
+  }
   const lib = ["r", "p", "s"];
   const permutations = [];
 
@@ -70,6 +72,5 @@ function rockPaperPermutations(rounds) {
   };
   // initial call of 0th round and empty string
   inner(0, "");
-
   return permutations;
 }
