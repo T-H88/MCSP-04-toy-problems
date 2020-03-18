@@ -11,5 +11,12 @@
  */
 
 var evenOccurrence = function(arr) {
-  // Your work here!
-};
+  var object = {}
+  for (var i = 0; i < arr.length; i++){
+    if (object[arr[i]]) {
+    } else {
+      obj[arr] 
+
+    }
+    }
+  },
