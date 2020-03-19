@@ -12,6 +12,20 @@
  * console.log(anagrams); // [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]
  */
 
-var allAnagrams = function(string) {
-  // Your code here.
+//creat an empty array that can be pushed into
+// iterate through each letter 
+// create a base case
+
+
+var allAnagrams = function(string, anagram) {
+var anagrams = [];
+  if (!string) {
+    allAnagrams.push(anagram)
+    return;
+  }
+ for ( var i = 0; i < string.length; i++) {
+   anagram += word[i];
+
+ }
+
 };
