@@ -3,4 +3,15 @@
 // Example:
 // flatten([1,['a', 2, [8, true], 7]]) returns [1, 'a', 2, 8, true, 7]
 
-function flatten(array) {}
+//Create a function 
+// Create a var []
+// turn array into a string???
+
+// should return a single array
+
+
+function flatten(array) {
+    var arr = [1,['a', 2, [8, true], 7]];
+    
+    }
+    
