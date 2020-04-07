@@ -11,5 +11,13 @@
  */
 
 var binarySearch = function(array, target) {
+    // base case if val === target return index 
+	  // save last midpoint; if new midpoint  = 0, return -1 
+	// find midpoint - length
+    // if midpoint >?? target, else + index  
+    //
+
+
+    var 
 
 };
