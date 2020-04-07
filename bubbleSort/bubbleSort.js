@@ -9,4 +9,17 @@
 
 // NOTE: DO NOT use JavaScript’s built-in sorting function (Array.prototype.sort).
 
-function bubbleSort(array) {}
+function bubbleSort(array) {
+    var length = arr.length;
+    function sort(arr,i) {
+        const 
+    }
+
+}
+
+
+} else {
+
+
+
+    //bubbleSort([4,2,1,6]);
