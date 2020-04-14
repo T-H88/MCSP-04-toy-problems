@@ -45,7 +45,32 @@ var testingTransform = function(array) {
   return transform;
 };
 
+
+// Input: array
+// Output: array of objects (sorted)
+// a = object 
+// b = array 
+
 var insertionSort = function(array) {
-  // Your code goes here. Feel free to add helper functions if needed.
+  
+  var sort = function (a, b){
+  if (a === null && a !== undefined && b === null && b !==undefined){
+    return
+    
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
   return array;
 };

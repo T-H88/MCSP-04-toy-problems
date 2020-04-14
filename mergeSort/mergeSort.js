@@ -97,5 +97,20 @@
 
 var mergeSort = function(array) {
   // Your code here.
+  // split the arrary 
+  
+  var merge = function(left, right) {
+    var split = [];
+    var i = 0;
+    var j = 0;
+
+    while (i < left.length && j < right.length) {
+      // if left is less than right 
+      // .Push left
+      // .Push right 
+      // split array 
+      // merge and repaeat. 
+    }
+  }
 };
 
