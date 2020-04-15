@@ -23,4 +23,14 @@
 
 Array.prototype.isSubsetOf = function(arr) {
   // your code here
+  var obj = {}
+  for (var i = 0; i <arr.length; i++) {
+
+  }
+
+      if(!obj[arr[i]]) {
+         obj[arr[i]] = 1
+      }
+    
+      if ()
 };
