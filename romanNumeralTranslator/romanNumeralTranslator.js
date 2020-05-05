@@ -26,6 +26,18 @@ var DIGIT_VALUES = {
   M: 1000
 };
 
+
+
 var translateRomanNumeral = function(romanNumeral) {
-  // TODO: Implement me!
-};
+  if (!romanNumberal) return 0;
+
+  if (DIGIT_VALUES[romanNumeral]) return DIGIT_VALUES[romanNumeral];
+  romanNumeral =  romanNumberal.split('');
+  var len = rn.length -1;
+ 
+  //if(typeof romanNumeral !== 'string') {
+    //return null;
+  }
+
+
+
